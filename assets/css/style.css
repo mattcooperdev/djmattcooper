@@ -15,6 +15,10 @@ body {
 
 /*headers and logo*/
 
+#menu, #logo {
+    line-height: 75px;
+} 
+
 h1, h2 {
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
@@ -25,4 +29,30 @@ h1, h2 {
 #logo {
     float: left;
     max-width: 50%;
+}
+
+/*navigation menu*/
+
+#menu { 
+    font-size:  140%;
+    letter-spacing: 4px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.active {
+    border-bottom: 2px solid red;
 }
