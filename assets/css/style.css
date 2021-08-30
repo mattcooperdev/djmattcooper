@@ -13,10 +13,28 @@ body {
     color: #fffffffa;
 }
 
+/*text fade for page*/
+
+.fadein {
+    animation-name: fadein;
+    animation-duration: 10s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
 /*headers and logo*/
 
 #menu, #logo {
-    line-height: 75px;
+    line-height: 130px;
 } 
 
 h1, h2 {
@@ -29,12 +47,13 @@ h1, h2 {
 #logo {
     float: left;
     max-width: 50%;
+    padding: 20px;
 }
 
 /*navigation menu*/
 
 #menu { 
-    font-size:  140%;
+    font-size: 160%;
     letter-spacing: 4px;
 }
 
@@ -72,7 +91,7 @@ h1, h2 {
     height: 1200px;
     width: 100%;
     background: url(../images/hero-image.png) no-repeat center center;
-    background-size: cover;
+    /* background-size: cover; */
     /* object-fit: contain; */
 
     /*zoom loading effect on loading page*/
