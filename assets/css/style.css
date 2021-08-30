@@ -59,6 +59,15 @@ h1, h2 {
 
 /* hero image and cover text*/
 
+#hero-outer {
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+}
+
 #hero-image {
     height: 1200px;
     width: 100%;
@@ -71,13 +80,6 @@ h1, h2 {
     animation-duration: 5s;
     animation-fill-mode: forwards;
 
-}
-
-#hero-outer {
-    height: 900px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
 }
 
 #cover-text, #cover-text h2 {
