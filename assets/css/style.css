@@ -60,7 +60,7 @@ h1, h2 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 #menu a {
@@ -88,7 +88,7 @@ h1, h2 {
 }
 
 #hero-image {
-    height: 1200px;
+    height: 900px;
     width: 100%;
     background: url(../images/hero-image.png) no-repeat center center;
     /* background-size: cover; */
@@ -116,21 +116,51 @@ h1, h2 {
 }
 
 #cover-text {
-    font-size: 200%;
+    font-size: 150%;
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 
-    width: 500px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
 
-    padding-top: 40px;
-    padding-left: 10px;
+    /* padding-top: 150px;
+    padding-left: 100px; */
 
-    background: transparent;
+    background: red;
 
-    bottom: 400px;
-    left: 200px;
+    bottom: 300px;
+    left: 33%;
 
     position: absolute;
 }
+
+/* releases section*/
+
+#media-section {
+    height: 900px;
+    display: inline-block;
+}
+
+#media-section > h1 {
+    font-size: 150%;
+    padding-top: 20px;
+    padding-left:  20px; 
+}
+
+.container-left {
+    padding-top: 30px;
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+    float: left;
+  }
+
+  .container-right {
+    padding-top: 30px;
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+    float: right;
+  }
+  
