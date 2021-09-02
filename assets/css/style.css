@@ -161,4 +161,8 @@ h1, h2 {
     
   }
 
+  .container-releases > div {
+      flex: 1;
+  }
+
   
