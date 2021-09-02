@@ -92,7 +92,7 @@ h1, h2 {
     width: 100%;
     background: url(../images/hero-image.png) no-repeat center center;
     /* background-size: cover; */
-    /* object-fit: contain; */
+   
 
     /*zoom loading effect on loading page*/
     animation-name: hero-zoom;
@@ -139,20 +139,25 @@ h1, h2 {
 
 #media-section {
     height: 900px;
-    display: inline-block;
+    /* display: flex;
+    flex: auto; */
+    /* justify-content: space-evenly; */
 }
 
 #media-section > h1 {
     font-size: 150%;
     padding-top: 20px;
-    padding-left:  20px; 
+    padding-left: 20px; 
 }
 
 .container-releases {
-    padding-top: 30px;
+    padding: 30px;
     display: flex;
-    position: relative;
+    flex: auto;
+    flex-wrap: wrap;
     overflow: hidden;
+    width: auto;
+    height: 100%;
     
   }
 
