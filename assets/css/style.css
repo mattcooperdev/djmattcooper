@@ -148,19 +148,12 @@ h1, h2 {
     padding-left:  20px; 
 }
 
-.container-left {
+.container-releases {
     padding-top: 30px;
+    display: flex;
     position: relative;
     overflow: hidden;
-    width: 50%;
-    float: left;
+    
   }
 
-  .container-right {
-    padding-top: 30px;
-    position: relative;
-    overflow: hidden;
-    width: 50%;
-    float: right;
-  }
   
