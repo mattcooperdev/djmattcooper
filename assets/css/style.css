@@ -170,10 +170,22 @@ h1, h2 {
 
   #gigs-section {
     height: 600px;
+    background-color: darkgray;
+    
   }
 
   #gigs-section > h1 {
     font-size: 150%;
-    padding-top: 20px;
-    padding-left: 20px; 
+    padding: 20px;
+  }
+
+  #gigs-section div {
+      background-color: #1F1F1F;
+      width: 25%;
+      height: 300px;
+      float: left;
+      padding: 30px 0 0 10px;
+      text-align: center;
+      border: 2px solid white;  
+      box-sizing: border-box;
   }
