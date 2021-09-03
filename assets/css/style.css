@@ -166,4 +166,14 @@ h1, h2 {
       justify-content: center;
   }
 
-  
+  /*gigs section*/
+
+  #gigs-section {
+    height: 600px;
+  }
+
+  #gigs-section > h1 {
+    font-size: 150%;
+    padding-top: 20px;
+    padding-left: 20px; 
+  }
