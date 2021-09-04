@@ -124,13 +124,12 @@ h1, h2 {
     width: 300px;
     height: 300px;
 
-    /* padding-top: 150px;
-    padding-left: 100px; */
+    padding: 10px;
 
     background: red;
 
-    bottom: 300px;
-    left: 33%;
+    bottom: 20%;
+    left: 25%;
 
     position: absolute;
 }
@@ -162,8 +161,9 @@ h1, h2 {
   }
 
   .container-releases > div {
-      flex: 1 1 50%;
+      flex: 50%;
       justify-content: center;
+      padding: 30px;
   }
 
   /*gigs section*/
