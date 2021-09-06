@@ -177,7 +177,7 @@ h2 {
 
 }
 
-#gigs-section>h1 {
+#gigs-section > h1 {
     font-size: 150%;
     padding: 20px;
 }
@@ -191,6 +191,11 @@ h2 {
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
+}
+
+#gigs-section h3 {
+    font-size: 1.5rem;
+    padding: 3px;
 }
 
 /*footer*/
