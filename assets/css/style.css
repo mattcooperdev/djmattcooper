@@ -24,6 +24,7 @@ body {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -33,11 +34,13 @@ body {
 
 /*headers and logo*/
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 130px;
-} 
+}
 
-h1, h2 {
+h1,
+h2 {
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -52,7 +55,7 @@ h1, h2 {
 
 /*navigation menu*/
 
-#menu { 
+#menu {
     font-size: 160%;
     letter-spacing: 4px;
 }
@@ -92,7 +95,7 @@ h1, h2 {
     width: 100%;
     background: url(/../assets/images/hero-image.png) no-repeat center center;
     /* background-size: cover; */
-   
+
 
     /*zoom loading effect on loading page*/
     animation-name: hero-zoom;
@@ -101,16 +104,19 @@ h1, h2 {
 
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #fffffffa;
 }
+
 /*zoom level for hero image*/
 
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
 }
@@ -143,71 +149,67 @@ h1, h2 {
     /* justify-content: space-evenly; */
 }
 
-#media-section > h1 {
+#media-section>h1 {
     font-size: 150%;
     padding-top: 20px;
-    padding-left: 20px; 
+    padding-left: 20px;
 }
 
 .container-releases {
     padding: 30px;
     display: flex;
-    flex: auto;
+    flex: 50%;
     flex-wrap: wrap;
+    justify-content: center;
     overflow: hidden;
-    width: auto;
-    height: 100%;
-    
-  }
+}
 
-  .container-releases > div {
-      flex: 50%;
-      justify-content: center;
-      padding: 30px;
-  }
+.container-releases>div {
+    padding: 2rem;
+}
 
-  /*gigs section*/
+/*gigs section*/
 
-  #gigs-section {
+#gigs-section {
     /* height: 100vh; */
     background-color: darkgray;
     display: flex;
-    
-  }
 
-  #gigs-section > h1 {
+}
+
+#gigs-section>h1 {
     font-size: 150%;
     padding: 20px;
-  }
+}
 
-  #gigs-section div {
-      background-color: #1F1F1F;
-      width: 25%;
-      height: 300px;
-      float: left;
-      padding: 30px;
-      text-align: center;
-      border: 2px solid white;  
-      box-sizing: border-box;
-  }
+#gigs-section div {
+    background-color: #1F1F1F;
+    width: 25%;
+    height: 300px;
+    float: left;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
 
-  /*footer*/
+/*footer*/
 
-  footer {
-      height: 150px;
-  }
+footer {
+    height: 150px;
+}
 
-  .social-networks {
-      text-align: center;
-  }
+.social-networks {
+    text-align: center;
+}
 
-  .social-networks > li {
+.social-networks>li {
     display: inline;
-  }
+}
 
-  .social-networks i {
-      font-size: 160%;
-      margin: 1%;
-      padding: 5%;
-      color: #fffffffa;
-  }
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #fffffffa;
+}
