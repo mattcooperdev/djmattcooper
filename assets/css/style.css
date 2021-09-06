@@ -169,8 +169,9 @@ h1, h2 {
   /*gigs section*/
 
   #gigs-section {
-    height: 600px;
+    /* height: 100vh; */
     background-color: darkgray;
+    display: flex;
     
   }
 
@@ -184,7 +185,7 @@ h1, h2 {
       width: 25%;
       height: 300px;
       float: left;
-      padding: 30px 0 0 10px;
+      padding: 30px;
       text-align: center;
       border: 2px solid white;  
       box-sizing: border-box;
