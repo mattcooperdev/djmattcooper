@@ -145,7 +145,7 @@ h2 {
 
 /* releases section*/
 
-#media-section>h1 {
+#media-section h1 {
     padding: 20px;
 }
 
@@ -170,7 +170,7 @@ h2 {
 
 }
 
-#gigs-section>h1 {
+#gigs-section h1 {
     font-size: 150%;
     padding: 20px;
     flex-direction: row;
