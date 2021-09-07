@@ -14,6 +14,10 @@ body {
     color: #fffffffa;
 }
 
+.section-header {
+  
+}
+
 /*text fade for page*/
 
 .fadein {
@@ -198,6 +202,20 @@ h2 {
     font-size: 1.5rem;
     padding: 3px;
 }
+
+/*connect section*/
+
+#connect-section {
+    height: 100vh;
+    width: 100%;
+}
+
+#clubvid {
+    display: flex;
+    height: 50%;
+    align-items: stretch;
+}
+
 
 /*footer*/
 
