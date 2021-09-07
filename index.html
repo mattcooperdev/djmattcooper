@@ -19,7 +19,7 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#">Connect</a>
                 </li>
                 <li>
                     <a href="#">Gigs</a>
@@ -65,32 +65,47 @@
     <section id="gigs-section">
         <h1>Gigs//</h1>
         <div>
-            <h2>11.09 //</h2>
+            <h2>11.09//</h2>
             <h3>Club Ethos</h3>
             <h3>Stockholm</h3>
             <h3>Sweden</h3>
         </div>
         <div>
-            <h2>18.09 //</h2>
+            <h2>18.09//</h2>
             <h3>Lehamnn Club</h3>
             <h3>Berlin</h3>
             <h3>Germany</h3>
         </div>
         <div>
-            <h2>19.09 //</h2>
+            <h2>19.09//</h2>
             <h3>Berghain</h3>
             <h3>Berlin</h3>
             <h3>Germany</h3>
         </div>
         <div>
-            <h2>25.09 //</h2>
+            <h2>25.09//</h2>
             <h3>Club Equinox</h3>
             <h3>Riga</h3>
             <h3>Latvia</h3>
         </div>
     </section>
     <section>
-        form and Contact
+        <h2>Connect//</h2>
+        <form class="contact-form" action="https://formdump.codeinstitute.net/" method="post" id="contactform">
+            <label for="fname">Full Name</label>
+            <input type="text" id="fname" name="full_name" required>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" required>
+            <label for="DJ">DJ</label>
+            <input type="checkbox" id="DJ" name="contact_reason" value="dj" required>
+            <label for="production">Production</label>
+            <input type="checkbox" id="Production" name="contact_reason" value="production">
+            <br>
+            <textarea rows="4" cols="50" name="comment" form="contactform">
+                Enter text here...</textarea>
+            <input type="submit" value="Reach Out">
+        </form>
+
     </section>
     <footer>
         <ul class="social-networks">
