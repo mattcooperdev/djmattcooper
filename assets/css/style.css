@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani&family=Roboto&display=swap');
 
+:root {
+    --base-black: #1f1f1f;
+    --base-white: #fffffffa;
+}
 * {
     padding: 0;
     margin: 0;
@@ -11,23 +15,18 @@
 body {
     font-family: Rajdhani, sans-serif;
     font-weight: 300px;
-    background-color: #1F1F1F;
-    color: #fffffffa;
+    background-color: var(--base-black);
+    color: var(--base-white);
 }
 
 /*headers and logo*/
-
-#menu,
-#logo {
-    /* line-height: 130px; */
-}
 
 h1,
 h2 {
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #fffffffa;
+    color: var(--base-white);
 }
 
 #logo {
@@ -40,7 +39,7 @@ h2 {
 /*navigation menu*/
 
 .navbar {
-    background-color: #1F1F1F;
+    background-color: var(--base-black);
     height: 70px;
 }
 
@@ -51,19 +50,6 @@ h2 {
 .navbar ul {
     display: flex;
     flex-direction: row-reverse;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 40px;
-}
-
-.flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
 }
 
 #menu {
@@ -83,12 +69,28 @@ h2 {
 }
 
 #menu a:hover {
-    border-bottom: 2px solid #fffffffa;
+    border-bottom: 2px solid var(--base-white);
 }
 
 .active {
-    border-bottom: 2px solid #fffffffa;
+    border-bottom: 2px solid var(--base-white);
 }
+
+/*Utilities*/
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
 
 /* hero image and cover text*/
 
@@ -97,10 +99,6 @@ h2 {
     width: 100%;
     overflow: hidden;
     position: relative;
-    object-fit: contain;
-
-    /* padding-left: 50px;
-    padding-right: 50px; */
 }
 
 #hero-image {
@@ -119,7 +117,7 @@ h2 {
 
 #cover-text,
 #cover-text h2 {
-    color: #fffffffa;
+    color: var(--base-white);
 }
 
 /*zoom level for hero image*/
@@ -175,7 +173,7 @@ h2 {
 
 #gigs-section {
     /* height: 100vh; */
-    background-color: darkgray;
+    background-color: var(--base-black);
     display: flex;
 
 }
@@ -187,7 +185,7 @@ h2 {
 }
 
 #gigs-section div {
-    background-color: #1F1F1F;
+    background-color: var(--base-black);
     width: 25%;
     height: 300px;
     float: left;
@@ -238,5 +236,5 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #fffffffa;
+    color: var(--base-white);
 }
