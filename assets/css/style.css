@@ -50,6 +50,7 @@ h2 {
 
 .navbar ul {
     display: flex;
+    flex-direction: row-reverse;
 }
 
 .container {
@@ -66,7 +67,7 @@ h2 {
 }
 
 #menu {
-    font-size: 160%;
+    font-size: 140%;
     letter-spacing: 4px;
 }
 
