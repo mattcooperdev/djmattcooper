@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     border: none;
+    box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
@@ -18,7 +19,7 @@ body {
 
 #menu,
 #logo {
-    line-height: 130px;
+    /* line-height: 130px; */
 }
 
 h1,
@@ -30,12 +31,39 @@ h2 {
 }
 
 #logo {
-    float: left;
+    /* float: left; */
+    min-width: 300px;
     max-width: 50%;
     padding: 20px;
 }
 
 /*navigation menu*/
+
+.navbar {
+    background-color: #1F1F1F;
+    height: 70px;
+}
+
+.navbar .flex {
+    justify-content: space-between;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 
 #menu {
     font-size: 160%;
@@ -43,9 +71,9 @@ h2 {
 }
 
 #menu li {
-    float: right;
     list-style-type: none;
-    margin-right: 20px;
+    padding: 10px;
+    margin: 0 5px;
 }
 
 #menu a {
