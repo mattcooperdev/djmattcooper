@@ -139,6 +139,8 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
 
+    width: 400px;
+
     padding: 10px;
     bottom: 25%;
     left: 10%;
@@ -176,7 +178,10 @@ h2 {
 }
 
 .container-releases>div {
-    padding: 2rem;
+    flex: 50%;
+    row-gap: 10px;
+    column-gap: 10px;
+    /* padding: 2rem; */
 }
 
 /*gigs section*/
