@@ -14,25 +14,6 @@ body {
     color: #fffffffa;
 }
 
-/*text fade for page*/
-
-.fadein {
-    animation-name: fadein;
-    animation-duration: 10s;
-}
-
-@keyframes fadein {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
-
-
 /*headers and logo*/
 
 #menu,
