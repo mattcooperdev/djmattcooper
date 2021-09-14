@@ -92,7 +92,6 @@ h2 {
     height: 100%;
 }
 
-
 /* hero image and cover text*/
 
 #hero-outer {
@@ -179,21 +178,16 @@ h2 {
     padding: 20px;
 }
 
-.container-releases {
+.container-releases1 .container-releases2 {
     display: flex;
-    flex: 50%;
-    row-gap: 10px;
-    column-gap: 10px;
-    /* padding: 2rem; */
-    
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-/* .container-releases>div {
-    flex: 50%;
-    row-gap: 10px;
-    column-gap: 10px; */
-    /* padding: 2rem;
-} */
+.container-releases1 .container-releases2 div {
+    flex-grow: 1;
+}
+
 
 /*gigs section*/
 
