@@ -181,18 +181,19 @@ h2 {
 
 .container-releases {
     display: flex;
-    /* flex: 50%;
-    flex-wrap: wrap; */
-    /* justify-content: center; */
-    overflow: hidden;
+    flex: 50%;
+    row-gap: 10px;
+    column-gap: 10px;
+    /* padding: 2rem; */
+    
 }
 
 /* .container-releases>div {
     flex: 50%;
     row-gap: 10px;
     column-gap: 10px; */
-    /* padding: 2rem; */
-}
+    /* padding: 2rem;
+} */
 
 /*gigs section*/
 
