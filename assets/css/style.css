@@ -165,22 +165,32 @@ h2 {
 
 /* releases section*/
 
+.releases-text {
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+.releases-text p {
+    padding-bottom: 1.5rem;
+}
+
 #media-section h1 {
     padding: 20px;
 }
 
 .container-releases {
     display: flex;
-    flex: 50%;
-    flex-wrap: wrap;
-    justify-content: center;
+    /* flex: 50%;
+    flex-wrap: wrap; */
+    /* justify-content: center; */
     overflow: hidden;
 }
 
-.container-releases>div {
+/* .container-releases>div {
     flex: 50%;
     row-gap: 10px;
-    column-gap: 10px;
+    column-gap: 10px; */
     /* padding: 2rem; */
 }
 
