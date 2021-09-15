@@ -164,6 +164,10 @@ h2 {
 
 /* releases section*/
 
+#releases-section {
+    width: 100vw;
+}
+
 .releases-text {
     display: flex;
     text-align: center;
@@ -174,18 +178,12 @@ h2 {
     padding-bottom: 1.5rem;
 }
 
-#media-section h1 {
+#releases-section h1 {
     padding: 20px;
 }
 
-.container-releases1 .container-releases2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.container-releases1 .container-releases2 div {
-    flex-grow: 1;
+.releases-container {
+   
 }
 
 
