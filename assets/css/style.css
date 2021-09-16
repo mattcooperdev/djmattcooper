@@ -183,7 +183,9 @@ h2 {
 }
 
 .releases-container {
-   height: auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
 }
 
 
