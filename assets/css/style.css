@@ -82,7 +82,7 @@ h2 {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0;
 }
 
 .flex {
@@ -183,7 +183,7 @@ h2 {
 }
 
 .releases-container {
-   
+   height: auto;
 }
 
 
@@ -192,7 +192,7 @@ h2 {
 #gigs-section {
     /* height: 100vh; */
     background-color: var(--base-black);
-    display: flex;
+    /* display: flex; */
 
 }
 
@@ -204,9 +204,9 @@ h2 {
 
 #gigs-section div {
     background-color: var(--base-black);
-    width: 25%;
+    /* width: 25%; */
     height: 300px;
-    float: left;
+    /* float: left; */
     padding: 30px;
     text-align: center;
     border: 2px solid white;
