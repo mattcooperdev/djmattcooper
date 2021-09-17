@@ -192,24 +192,23 @@ h2 {
 /*gigs section*/
 
 #gigs-section {
-    /* height: 100vh; */
-    background-color: var(--base-black);
-    /* display: flex; */
 
+    background-color: var(--base-black);
+}
+
+.gigs-container {
+    background: url(/../assets/images/gigs-section.jpg) no-repeat center center; 
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #gigs-section h1 {
     font-size: 150%;
     padding: 20px;
-    flex-direction: row;
 }
 
-#gigs-section div {
-    background-color: var(--base-black);
-    /* width: 20%; */
-    /* height: 300px; */
-    /* float: left; */
-    padding: 20px 0;
+.gig-info {
+    padding: 20px;
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
