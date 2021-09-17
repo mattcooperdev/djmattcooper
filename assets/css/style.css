@@ -203,6 +203,7 @@ h2 {
     background: url(/../assets/images/gigs-section.jpg) no-repeat center center; 
     display: flex;
     justify-content: space-evenly;
+    margin: 0 20px;
 }
 
 #gigs-section h1 {
@@ -213,7 +214,7 @@ h2 {
 .gig-info {
     padding: 1rem;
     text-align: center;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     box-sizing: border-box;
 }
 
