@@ -185,14 +185,17 @@ h2 {
 .releases-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.iframe {
+    padding: 1rem;
 }
 
 
 /*gigs section*/
 
 #gigs-section {
-
     background-color: var(--base-black);
 }
 
@@ -208,7 +211,7 @@ h2 {
 }
 
 .gig-info {
-    padding: 20px;
+    padding: 1rem;
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
