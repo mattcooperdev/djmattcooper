@@ -116,7 +116,8 @@ h2 {
 }
 
 #cover-text,
-#cover-text h2 {
+#cover-text h2,
+.about-me-btn {
     color: var(--base-white);
 }
 
@@ -137,15 +138,11 @@ h2 {
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-
     width: 400px;
-
     padding: 10px;
     bottom: 18%;
     left: 10%;
-
     position: absolute;
-
     margin: 10px 0;
 }
 
@@ -153,12 +150,23 @@ h2 {
     margin: 15px 0;
 }
 
-#cover-text a {
-    text-decoration: none;
-    color: inherit;
+.about-me-btn {
+    font-size: 180%;
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 0 10px 10px;
+    bottom: 12%;
+    left: 10%;
+    position: absolute;
+    
 }
 
-#cover-text a:hover {
+.about-me-btn a {
+    text-decoration: none;
+}
+
+.about-me-btn a:hover {
     border-bottom: 2px solid var(--base-white);
 }
 
