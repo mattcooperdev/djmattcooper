@@ -175,7 +175,8 @@ h2 {
 }
 
 .releases-text p {
-    padding-bottom: 1.5rem;
+    font-size: 120%;
+    padding: 0 1.5rem;
 }
 
 #releases-section h1 {
@@ -202,10 +203,17 @@ h2 {
 .gigs-container {
     background: url(/../assets/images/gigs-section.jpg) no-repeat center center;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: space-evenly;
     margin: 0 20px;
 }
+
+/* .gigs-row-1 .gigs-row-2 .gigs-row-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 20px;
+} */
 
 #gigs-section h1 {
     font-size: 150%;
