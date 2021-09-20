@@ -213,14 +213,12 @@ h2 {
     display: flex;
     /* flex-direction: column; */
     justify-content: space-evenly;
-    margin: 0 20px;
 }
 
 /* .gigs-row-1 .gigs-row-2 .gigs-row-3 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin: 0 20px;
 } */
 
 #gigs-section h1 {
@@ -251,7 +249,6 @@ h2 {
 .connect-container {
     background: url(/../assets/images/releases-section.jpg) center;
     height: 50vh;
-
 }
 
 .contact-form {
