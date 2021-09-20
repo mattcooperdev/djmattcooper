@@ -249,18 +249,18 @@ h2 {
 .connect-container {
     background: url(/../assets/images/releases-section.jpg) center;
     height: 50vh;
+    display: flex;
 }
 
 .contact-form {
     display: flex;
-    align-items: center;
-    margin: 150px 10% 0 0;
+    flex-direction: column;
+    /* margin: 150px 10% 0 0; */
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
+    /* max-width: 400px; */
     position: absolute;
-    left: 10%;
-    padding: 30px;
+    padding: 1.5rem;
 }
 
 .signup-form h2 {
