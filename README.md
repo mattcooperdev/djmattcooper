@@ -1,10 +1,10 @@
-<h1 align="center">Code Institute Website</h1>
+<h1 align="center">DJ Matt Cooper Website</h1>
 
-[View the live project here.](https://codeinstitute.net)
+[View the live project here.](https://yescoops.github.io/djmattcooper/)
 
 This is the main marketing website for DJ Matt Cooper. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for current and potential fans and employers.
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+<h2 align="center"><img url(/../assets/images/MC_Logo_Transparent_White_Text.png)></h2>
 
 ## User Experience (UX)
 
@@ -30,9 +30,9 @@ This is the main marketing website for DJ Matt Cooper. It is designed to be resp
     -   #### Colour Scheme
         -   The two main colours used are Black and white.
     -   #### Typography
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+        -   The Roboto and Radjhani fonts are the chosen fonts used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto is a clean, futuristic style font that suits the styling of the website, with Radjhani being suggested by Google fonts as a contrasting pair to use along with it. 
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, clean aesthetic that pertains to the Underground electronic music scene.
+        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, clean aesthetic that pertains to the  anonymity of both the artist and the underground electronic music scene.
 
 *   ### Wireframes
 
@@ -40,7 +40,7 @@ This is the main marketing website for DJ Matt Cooper. It is designed to be resp
 
     -   Mobile Wireframe - [View](https://github.com/)
 
-    -   Contact Us Page Wireframe - [View](https://github.com/)
+    -   Thank you page Wireframe - [View](https://github.com/)
 
 ## Features
 
@@ -57,10 +57,8 @@ This is the main marketing website for DJ Matt Cooper. It is designed to be resp
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the 'Roboto' and 'Radjhani' fons into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 1. [Git](https://git-scm.com/)
@@ -89,7 +87,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+        1. The site has been designed to be fluid and never to entrap the user. At the top of the page there is a clean navigation bar, each link describes what the page they will end up at clearly.
         2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
         3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
 
@@ -198,10 +196,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+-   The CSS underline animation came from here: (https://paulund.co.uk/css-animation-link-underline)
 
-
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
 
 ### Content
 
@@ -215,6 +211,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
+-   My Mentor Anto for his continuous helpful feedback.
 
--   Tutor support at Code Institute for their support.
+-   My partner Mor for her testing, suggestions and support throughout this build. 
