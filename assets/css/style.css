@@ -77,13 +77,8 @@ h2 {
 @media screen and (max-width:800px) {
     .container {
         flex-wrap: wrap;
-    }
-    .container > ul {
-        flex: 1 1 50%;
-    }
+    }  
 }
-
-
 
 /*Utilities*/
 
@@ -155,6 +150,18 @@ h2 {
 
 #cover-text h2 {
     margin: 15px 0;
+}
+
+/*media query for cover text on smaller screens*/
+
+@media screen and (max-width: 470px) {
+    #cover-text {
+        font-size: 120%;
+        width: 270px;
+    }
+    .about-me-btn {
+        font-size: 150%;
+    }
 }
 
 .about-me-btn {
