@@ -34,7 +34,7 @@ h2 {
     /* float: left; */
     min-width: 300px;
     max-width: 50%;
-    padding: 20px;
+    padding: 1.5rem;
 }
 
 /*navigation menu*/
@@ -188,7 +188,7 @@ h2 {
 }
 
 #releases-section h1 {
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .releases-container {
@@ -223,13 +223,11 @@ h2 {
 
 #gigs-section h1 {
     font-size: 150%;
-    padding: 20px;
+    padding: 1.5rem;
 }
 
 .gig-info {
     padding: 1rem;
-    /* text-align: center; */
-    /* border: 2px solid white; */
     box-sizing: border-box;
 }
 
@@ -242,7 +240,7 @@ h2 {
 
 #connect-section h1 {
     font-size: 150%;
-    padding: 20px;
+    padding: 1.5rem;
 }
 
 
@@ -321,7 +319,6 @@ h2 {
 .connect-btn:hover {
     animation-name: fade;
     animation-duration: 3s;
-
 }
 
 
