@@ -31,21 +31,16 @@ h2 {
 }
 
 #logo {
-    /* float: left; */
     min-width: 300px;
     max-width: 50%;
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 /*navigation menu*/
 
 .navbar {
     background-color: var(--base-black);
-    height: 70px;
-}
-
-.navbar .flex {
-    justify-content: space-between;
+    height: 100%;
 }
 
 .navbar ul {
@@ -70,12 +65,25 @@ h2 {
 }
 
 #menu a:hover {
-    border-bottom: 2px solid var(--base-white);
+    border-bottom: 1px solid var(--base-white);
 }
 
 .active {
-    border-bottom: 2px solid var(--base-white);
+    border-bottom: 1px solid var(--base-white);
 }
+
+/*responsive nav bar at 800px and below*/
+
+@media screen and (max-width:800px) {
+    .container {
+        flex-wrap: wrap;
+    }
+    .container > ul {
+        flex: 1 1 50%;
+    }
+}
+
+
 
 /*Utilities*/
 
