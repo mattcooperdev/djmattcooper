@@ -116,8 +116,7 @@ h2 {
 }
 
 #cover-text,
-#cover-text h2,
-.about-me-btn {
+#cover-text h2 {
     color: var(--base-white);
 }
 
@@ -159,6 +158,7 @@ h2 {
     bottom: 12%;
     left: 10%;
     position: absolute;
+    color: #f11616;
     
 }
 
@@ -257,13 +257,13 @@ h2 {
 .contact-form {
     display: flex;
     flex-direction: column;
-    color: #fff;
+    color: var(--base-white);
     background-color: rgba(60, 60, 60, 0.6);
     position: absolute;
-    padding: 1.5rem;
+    padding: 1rem;
     max-height: 50vh;
     max-width: 80vw;
-    font-size: 120%;
+    font-size: 110%;
 }
 
 .signup-form h2 {
@@ -285,35 +285,55 @@ h2 {
     border-color: #f16c6b;
 }
 
+.connect-checkbox {
+    display: flex;
+    padding: 0 1rem 1rem;
+    justify-content: center;
+}
+
+.connect-checkbox div {
+    font-size: 110%;
+    padding-right: 1.5rem;
+}
+
 .textarea {
     resize: none;
+    border-radius: 2px;
 }
 
 .connect-btn {
-    margin-top: 20px;
+    margin-top: 1rem;
     border-radius: 2px;
-    padding: 15px 32px;
+    padding: 1rem 2rem;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
-    color: #fafafa;
+    background-color: var(--base-white);
+    color: var(--base-black);
     display: block;
 }
 
+/*animation fade for button hover*/
+@keyframes fade {
+    from {background-color: var(--base-white); color: var(--base-black);}
+    to {background-color: #f11616; color: var(--base-white);}
+}
+
 .connect-btn:hover {
-    background-color: #fafafa;
-    color: #f16c6b;
+    animation-name: fade;
+    animation-duration: 3s;
+
 }
 
 
 /*footer*/
 
 footer {
-    height: 150px;
+    height: 70px;
 }
 
 .social-networks {
     text-align: center;
+    justify-content: center;
 }
 
 .social-networks>li {
