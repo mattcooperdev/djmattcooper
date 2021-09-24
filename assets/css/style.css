@@ -15,7 +15,7 @@
 
 body {
     font-family: Rajdhani, sans-serif;
-    font-weight: 300px;
+    font-weight: 300;
     background-color: var(--base-black);
     color: var(--base-white);
 }
