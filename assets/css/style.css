@@ -189,7 +189,7 @@ h2 {
     bottom: 12%;
     left: 10%;
     position: absolute;
-    color: #f11616;
+    text-decoration: none;
     
 }
 
@@ -361,7 +361,7 @@ h2 {
 /*footer*/
 
 footer {
-    height: 100%;
+    min-height: 100%;
 }
 
 .social-networks {
