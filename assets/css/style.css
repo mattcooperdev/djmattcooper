@@ -260,9 +260,9 @@ h2 {
 
 
 .connect-container {
-    background: url(../images/releases-section.jpg) center;
-    height: 50vh;
+    background: url(../images/releases-section.jpg) no-repeat center center;
     display: flex;
+    min-height: 60vh;
     justify-content: center;
     align-items: center;
 }
@@ -274,7 +274,7 @@ h2 {
     background-color: rgba(60, 60, 60, 0.6);
     position: absolute;
     padding: 1rem;
-    max-height: 50vh;
+    height: 50vh;
     max-width: 80vw;
     font-size: 110%;
 }
@@ -288,7 +288,7 @@ h2 {
     background: transparent;
     color: #fafafa;
     width: 100%;
-    height: 2rem;
+    min-height: 2rem;
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
@@ -311,6 +311,7 @@ h2 {
 
 .connect-textarea {
     resize: none;
+    min-height: 6rem;
     border-radius: 2px;
 }
 
