@@ -260,6 +260,15 @@ h2 {
     padding: 3px;
 }
 
+@media screen and (max-width:500px) {
+    #gigs-section p {
+        font-size: 0.9rem;
+    }
+    #gigs-section h2 {
+        font-size: 100%;
+    }
+}
+
 /*connect section*/
 
 #connect-section h1 {
