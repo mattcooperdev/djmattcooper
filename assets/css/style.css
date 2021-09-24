@@ -176,10 +176,11 @@ h2 {
 
 .about-me-btn a {
     text-decoration: none;
+    color: var(--base-white);
 }
 
 .about-me-btn a:hover {
-    border-bottom: 2px solid var(--base-white);
+    border-bottom: 2px solid #f11616;
 }
 
 /* releases section*/
