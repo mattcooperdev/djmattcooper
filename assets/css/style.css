@@ -78,6 +78,21 @@ h2 {
     .container {
         flex-wrap: wrap;
     }  
+    #logo {
+        max-width: 100%;
+    }   
+}
+
+/*responsive nav bar at 450px and below*/
+
+@media screen and (max-width:450px) {
+    .container {
+        flex-wrap: wrap;
+    }     
+    .navbar ul {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
 }
 
 /*Utilities*/
@@ -160,7 +175,7 @@ h2 {
         width: 270px;
     }
     .about-me-btn {
-        font-size: 150%;
+        font-size: 100%;
     }
 }
 
@@ -246,8 +261,8 @@ h2 {
     box-sizing: border-box;
 }
 
-#gigs-section h3 {
-    font-size: 1.5rem;
+#gigs-section p {
+    font-size: 1.25rem;
     padding: 3px;
 }
 
