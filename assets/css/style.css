@@ -128,9 +128,9 @@ h2 {
 
 
     /*zoom loading effect on loading page*/
-    animation-name: hero-zoom;
+    /* animation-name: hero-zoom;
     animation-duration: 5s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
 
 }
 
@@ -327,7 +327,7 @@ h2 {
     padding-right: 1.5rem;
 }
 
-.textarea {
+.connect-textarea {
     resize: none;
     border-radius: 2px;
 }
