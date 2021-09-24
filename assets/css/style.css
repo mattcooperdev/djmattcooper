@@ -125,30 +125,11 @@ h2 {
     width: 100%;
     background: url(/../assets/images/hero-image.png) no-repeat center center;
     background-size: cover;
-
-
-    /*zoom loading effect on loading page*/
-    /* animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards; */
-
 }
 
 #cover-text,
 #cover-text h2 {
     color: var(--base-white);
-}
-
-/*zoom level for hero image*/
-
-@keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.1);
-    }
 }
 
 #cover-text {
