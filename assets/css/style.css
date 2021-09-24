@@ -242,15 +242,8 @@ h2 {
 .gigs-container {
     background: url(/../assets/images/gigs-section.jpg) no-repeat center center;
     display: flex;
-    /* flex-direction: column; */
     justify-content: space-evenly;
 }
-
-/* .gigs-row-1 .gigs-row-2 .gigs-row-3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-} */
 
 #gigs-section h1 {
     font-size: 150%;
@@ -311,7 +304,7 @@ h2 {
 }
 
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: #f11616;
 }
 
 .connect-checkbox {
@@ -333,17 +326,20 @@ h2 {
 .connect-btn {
     margin-top: 1rem;
     border-radius: 2px;
+    border: 2px solid var(--base-white);
+    font-family: inherit;
+    font-size: 120%;
+    text-transform: uppercase;
     padding: 1rem 2rem;
     text-align: center;
-    font-size: 100%;
-    background-color: var(--base-white);
-    color: var(--base-black);
+    background-color: transparent;
+    color: var(--base-white);
     display: block;
 }
 
 /*animation fade for button hover*/
 @keyframes fade {
-    from {background-color: var(--base-white); color: var(--base-black);}
+    from {background-color: transparent; color: var(--base-white);}
     to {background-color: #f11616; color: var(--base-white);}
 }
 
