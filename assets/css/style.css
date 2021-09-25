@@ -162,7 +162,6 @@ h2 {
     bottom: 18%;
     left: 10%;
     position: absolute;
-    /* margin: 10px 0; */
 }
 
 #cover-text h2 {
@@ -196,7 +195,6 @@ h2 {
     text-decoration: none;
     color: var(--base-white);
 }
-
 
 .about-me-btn a:before {
     content: "";
@@ -375,7 +373,6 @@ h2 {
 
 footer {
     min-height: 100%;
-    /* position: absolute; */
     bottom: 0;
 }
 
