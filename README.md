@@ -4,7 +4,7 @@
 
 This is the main marketing website for DJ Matt Cooper. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for current and potential fans and employers.
 
-<h2 align="center"><img url(/../assets/images/MC_Logo_Transparent_White_Text.png)></h2>
+<h2 align="center"><img url(/./images/MC_Logo_Transparent_White_Text.png)></h2>
 
 ## User Experience (UX)
 
