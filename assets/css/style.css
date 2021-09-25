@@ -170,23 +170,36 @@ h2 {
 
 /*media query for cover text on smaller screens*/
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width:800px) {
     #cover-text {
         font-size: 120%;
         width: 270px;
+        bottom: 12%;
+    }
+    #cover-text h2 {
+        font-size: 130%;
+    }
+}
+
+
+@media screen and (max-width: 470px) {
+    #cover-text {
+        font-size: 100%;
+        width: 270px;
+        bottom: 12%;
     }
     .about-me-btn {
-        font-size: 100%;
+        font-size: 1rem;
     }
 }
 
 .about-me-btn {
-    font-size: 180%;
+    font-size: 1.5rem;
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     margin-left: 10px;
-    bottom: 12%;
+    bottom: 7%;
     left: 10%;
     position: absolute;   
 }
@@ -195,6 +208,8 @@ h2 {
     text-decoration: none;
     color: var(--base-white);
 }
+
+/*animation for about me button*/
 
 .about-me-btn a:before {
     content: "";
