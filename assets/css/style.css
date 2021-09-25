@@ -304,9 +304,7 @@ h2 {
     flex-direction: column;
     color: var(--base-white);
     background-color: rgba(60, 60, 60, 0.6);
-    position: absolute;
     padding: 1rem;
-    height: 50vh;
     max-width: 80vw;
     font-size: 110%;
 }
@@ -377,6 +375,8 @@ h2 {
 
 footer {
     min-height: 100%;
+    /* position: absolute; */
+    bottom: 0;
 }
 
 .social-networks {
