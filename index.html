@@ -176,17 +176,21 @@
                 <input class="text-input" type="text" id="fname" name="full_name" required>
                 <label for="email">Email Address</label>
                 <input class="text-input" type="email" id="email" name="email_address" required>
-                <div class="connect-checkbox">
-                    <div>
-                        <label for="DJ">DJ</label>
-                        <input type="checkbox" id="DJ" name="contact_reason" value="dj" required>
+                <fieldset>
+                    <div class="connect-checkbox">
+                        <div>
+                            <label for="DJ">DJ</label>
+                            <input type="checkbox" id="DJ" name="contact_reason" value="dj" required>
+                        </div>
+                        <div>
+                            <label for="production">Production</label>
+                            <input type="checkbox" id="production" name="contact_reason" value="production">
+                        </div>
                     </div>
-                    <div>
-                        <label for="production">Production</label>
-                        <input type="checkbox" id="production" name="contact_reason" value="production">
-                    </div>
-                </div>
-                <textarea class="connect-textarea" rows="6" cols="50" name="comment" form="contactform"></textarea>
+                </fieldset>
+                <label for="comment_box">Talk to Me</label>
+                <textarea class="connect-textarea" id="comment_box" rows="6" cols="50" name="comment"
+                    form="contactform"></textarea>
                 <input class="connect-btn" type="submit" value="Connect">
             </form>
         </div>
