@@ -349,8 +349,9 @@ h2 {
 
 .connect-checkbox {
     display: flex;
-    padding: 0 1rem 1rem;
+    padding: 0 1rem 0.5rem;
     justify-content: center;
+    
 }
 
 .connect-checkbox div {
