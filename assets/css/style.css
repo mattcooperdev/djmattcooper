@@ -107,7 +107,7 @@ h2 {
     height: 100%;
 }
 
-/*underline animation*/
+/*underline animation thnaks to paullund.co.uk */
 
 .underline {
     position: relative;
@@ -287,15 +287,25 @@ h2 {
     padding: 3px;
 }
 
+/*media queries to reduce text size on medium and smaller screens*/
+
 @media screen and (max-width:500px) {
     #gigs-section p {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     #gigs-section h2 {
         font-size: 100%;
     }
 }
 
+@media screen and (max-width:400px) {
+    #gigs-section p {
+        font-size: 0.9rem;
+    }
+    #gigs-section h2 {
+        font-size: 90%;
+    }
+}
 /*connect section*/
 
 #connect-section h1 {
@@ -323,17 +333,17 @@ h2 {
 }
 
 .signup-form h2 {
-    color: #fafafa;
+    color: var(--base-white);
     margin-bottom: 20px;
 }
 
 .text-input {
     background: transparent;
-    color: #fafafa;
+    color: var(--base-white);
     width: 100%;
     min-height: 2rem;
     margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
+    border: 1px solid var(--base-white);
     border-radius: 2px;
 }
 
@@ -373,6 +383,7 @@ h2 {
 }
 
 /*animation fade for button hover*/
+
 @keyframes fade {
     from {background-color: transparent; color: var(--base-white);}
     to {background-color: #f11616; color: var(--base-white);}
@@ -382,7 +393,6 @@ h2 {
     animation-name: fade;
     animation-duration: 3s;
 }
-
 
 /*footer*/
 
