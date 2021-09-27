@@ -4,7 +4,7 @@
 
 This is the main marketing website for DJ Matt Cooper. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for current and potential fans and employers.
 
-<h2 align="center"><img url(/./images/mc-logo.png)></h2>
+<h2 align="center"><img url(/./assets/images/mc-logo.png)></h2>
 
 ## User Experience (UX)
 
@@ -24,11 +24,10 @@ This is the main marketing website for DJ Matt Cooper. It is designed to be resp
 
     -   #### Frequent User Goals
         1. As a Frequent User, I want to check to see if there are any newly added media (such as releases or mixes) or gigs.
-        2. As a Frequent User, I want to check to see if there are any new blog posts.
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are Black and white.
+        -   The two main colours used are Black and white, with a red used as focus in the anchor and form inputs.
     -   #### Typography
         -   The Roboto and Radjhani fonts are the chosen fonts used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto is a clean, futuristic style font that suits the styling of the website, with Radjhani being suggested by Google fonts as a contrasting pair to use along with it. 
     -   #### Imagery
@@ -81,15 +80,15 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the section of their choice. Underneath there is a Hero Image with Text and a "Reach Out" Call to action button.
         2. The main points are made immediately with the hero image
-        3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
+        3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the Artist.
 
     2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
-        1. The site has been designed to be fluid and never to entrap the user. At the top of the page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-        2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-        3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+        1. The site has been designed to be fluid and never to entrap the user. At the top of the page there is a clean navigation bar, each link describes what section they will end up at clearly.
+        2. At the bottom of the page there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
+        3. In the Connect section, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
 
     3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
         1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
