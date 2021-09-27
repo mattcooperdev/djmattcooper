@@ -142,7 +142,7 @@ The site was throughly checked for any possible accessibility issues. Below is t
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Firefox, Microsoft Edge and Safari browsers.
--   The Website was tested through [Responsinator](https://www.responsinator.com/?url=https%3A%2F%2Fyescoops.github.io%2Fdjmattcooper%2F) to check any reponsiveness issues. 
+-   The Website was tested through [Responsinator](https://www.responsinator.com/?url=https%3A%2F%2Fyescoops.github.io%2Fdjmattcooper%2F) to check any responsiveness issues. 
 -   The website was viewed on a variety of devices such as Desktop, Laptop, Oppo G13, iPhone 8 & iPhoneX.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
