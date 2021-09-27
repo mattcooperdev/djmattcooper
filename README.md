@@ -130,7 +130,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   On a mobile device in landscape view, the anchor within the cover text does not resize correctly. 
+-   On a mobile device in landscape view, the anchor text within the cover text does not resize correctly. 
   
 ## Deployment
 
