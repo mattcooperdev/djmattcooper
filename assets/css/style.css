@@ -422,3 +422,29 @@ footer {
     padding: 5%;
     color: var(--base-white);
 }
+/*thank you page*/
+
+.thankyou {
+    background: url(../images/gigs-section.jpg) no-repeat center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50vh;
+}
+
+.thankyou a {
+    font-size: 150%;
+    padding: 0 1rem;
+    text-decoration: none;
+    color: var(--base-white);
+}
+
+.thankyou h1 {
+    font-size: 150%;
+    padding: 0 1rem;
+}
+
+.thankyou p {
+    font-size: 150%;
+    padding: 0 1rem;
+}
