@@ -1,10 +1,14 @@
-<h1 align="center">DJ Matt Cooper Website</h1>(/images/mc-logo.png) 
+![mc logo](assets/images/mc-logo.png) 
 
 [View the live project here.](https://yescoops.github.io/djmattcooper/)
 
 This is the main marketing website for DJ Matt Cooper. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for current and potential fans and employers.
 
-<h2 align="center"></h2>(assets/md-images/mc-responsive.png)
+---
+
+![device screens](assets/md-images/mc-responsive.png)
+
+---
 
 ## User Experience (UX)
 
@@ -33,21 +37,26 @@ This is the main marketing website for DJ Matt Cooper. It is designed to be resp
     -   #### Imagery
         -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, clean aesthetic that pertains to the  anonymity of both the artist and the underground electronic music scene.
 
+---
+
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View]<img url(/md-images/mc-browser.png)>
+    -   Home Page Wireframe - 
+    ![Home Page Wireframe](assets/md-images/mc-browser.png)
 
-    -   Mobile Wireframe - [View](https://github.com/)
+    -   Mobile Wireframe - 
+
+        ![Mobile Wireframe](assets/md-images/mc-mobile.png)
 
     -   Thank you page Wireframe - [View](https://github.com/)
+
+---
 
 ## Features
 
 -   Responsive on all device sizes
 
 -   Interactive elements
-
-## Technologies Used
 
 ### Languages Used
 
@@ -67,12 +76,22 @@ This is the main marketing website for DJ Matt Cooper. It is designed to be resp
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
+---
+
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fyescoops.github.io%2Fdjmattcooper%2F)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fyescoops.github.io%2Fdjmattcooper%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+## Accessibility Testing
+
+The site was throughly checked for any possible accessibility issues. Below is the [WAVE](https://wave.webaim.org/) report:
+
+![Wave Report](assets/md-images/mc-wave.png)
+
+---
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -119,7 +138,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
         1. The user would already be comfortable with the website layout and can easily click relative links to the releases, gigs or social sections.
 
-    
 
 ### Further Testing
 
@@ -131,6 +149,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Known Bugs
 
 -   On a mobile device in landscape view, the anchor text within the cover text does not resize correctly. 
+
+---
   
 ## Deployment
 
@@ -179,6 +199,8 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
 
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+---
 
 ## Credits
 
