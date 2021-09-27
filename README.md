@@ -31,7 +31,8 @@ This is the main marketing website for DJ Matt Cooper. It is designed to be resp
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are Black and white, with a red used as focus in the anchor and form inputs.
+        -   The two main colours used are black (#1f1f1f) and white (#fffffffa), with a red used as focus in the anchor and form inputs. This contrast is passes WCGA AA and AAA requirements.
+        ![wcga](assets/md-images/contrast-checker.png)
     -   #### Typography
         -   The Roboto and Radjhani fonts are the chosen fonts used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto is a clean, futuristic style font that suits the styling of the website, with Radjhani being suggested by Google fonts as a contrasting pair to use along with it. 
     -   #### Imagery
