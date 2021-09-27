@@ -18,6 +18,7 @@ body {
     font-weight: 300;
     background-color: var(--base-black);
     color: var(--base-white);
+    overflow-x: hidden;
 }
 
 /*headers and logo*/

@@ -1,10 +1,10 @@
-<h1 align="center">DJ Matt Cooper Website</h1>(images/mc-logo.png) 
+<h1 align="center">DJ Matt Cooper Website</h1>(/images/mc-logo.png) 
 
 [View the live project here.](https://yescoops.github.io/djmattcooper/)
 
 This is the main marketing website for DJ Matt Cooper. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for current and potential fans and employers.
 
-<h2 align="center"></h2>(/md-images/mc-responsive.png)
+<h2 align="center"></h2>(assets/md-images/mc-responsive.png)
 
 ## User Experience (UX)
 
