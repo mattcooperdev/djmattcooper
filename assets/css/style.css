@@ -144,6 +144,10 @@ h2 {
     background-size: cover;
 }
 
+#cover-text {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 #cover-text,
 #cover-text h2 {
     color: var(--base-white);
