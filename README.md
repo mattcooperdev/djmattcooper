@@ -31,8 +31,10 @@ This is the main marketing website for DJ Matt Cooper. It is designed to be resp
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are black (#1f1f1f) and white (#fffffffa), with a red used as focus in the anchor and form inputs. This contrast is passes WCGA AA and AAA requirements.
+        -   The two main colours used are black (#1f1f1f) and white (#fffffffa), with a red (#f11616) used as focus in the anchor and form inputs. This contrast is passes WCGA AA and AAA requirements.
         ![wcga](assets/md-images/contrast-checker.png)
+    -   #### Layout
+        -  A simple scrolling page gives this site a clean, minimalist feel which creates the desired effect for the Artist. As the content focus is music, the lack of text deemed several pages to be uneccesary. 
     -   #### Typography
         -   The Roboto and Radjhani fonts are the chosen fonts used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto is a clean, futuristic style font that suits the styling of the website, with Radjhani being suggested by Google fonts as a contrasting pair to use along with it. 
     -   #### Imagery
@@ -50,9 +52,18 @@ This is the main marketing website for DJ Matt Cooper. It is designed to be resp
         ![Mobile Wireframe](assets/md-images/mc-mobile.png)
 
     -   Thank you page Wireframe - 
+
     ![Thank you Wireframe](assets/md-images/mc-thankyou.png) 
 
-    As you can see from the Wireframes, the initial layout of the Site was slightly different. The evolution of the layout came about through testing and understanding the UX as the build developed. 
+    As you can see from the Wireframes, the initial layout of the Site was slightly different. The evolution of the layout came about through testing and understanding the UX as the build developed:
+
+    - The addition of a separate area for Gig information on the Desktop view allowed more focus to the Connect form and the desire for users to input their data. 
+
+    - The removal of the email address in the Connect section so Users will be more drawn to use the form. 
+
+    - The cursor scrolling of the iframes in the mobile view of the releases section due to limitations in the CSS to do this in a responsive way. 
+
+    - The use of a hamburger icon for the navbar menu when on smaller screens due to the limitations in CSS. 
 
 ---
 
@@ -86,8 +97,9 @@ This is the main marketing website for DJ Matt Cooper. It is designed to be resp
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate all pages of the project to ensure there were no syntax errors in there. 
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results for Main Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fyescoops.github.io%2Fdjmattcooper%2F) - [Results for Thankyou Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fyescoops.github.io%2Fdjmattcooper%2Fthankyou.html)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results for Main Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fyescoops.github.io%2Fdjmattcooper%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) - [Results for Thankyou Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fyescoops.github.io%2Fdjmattcooper%2Fthankyou.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+-   W3C Markup Validator - [Results for Main Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fyescoops.github.io%2Fdjmattcooper%2F) - [Results for Thankyou Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fyescoops.github.io%2Fdjmattcooper%2Fthankyou.html)
+
+-   W3C CSS Validator - [Results for Main Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fyescoops.github.io%2Fdjmattcooper%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) - [Results for Thankyou Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fyescoops.github.io%2Fdjmattcooper%2Fthankyou.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## Accessibility Testing
 
@@ -115,9 +127,9 @@ The site was checked with Google Developments' Lighthouse tool. Below are the re
 
     1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about DJ Matt Cooper.
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the section of their choice. Underneath there is a Hero Image with text about the Site and a "Reach Out" Call to action button.
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the section of their choice. The use of a clean underline animation when hovering over a link emphasises where the User is. Underneath there is a Hero Image with text about the Site and a "Reach Out" Call to action button.
         2. The main points are made immediately with the hero image and associated text.
-        3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the Artist.
+        3. The user has two options, click the animated call to action button (which highlights in red to emphasise the link to the connect form) or scroll down, both of which will lead to the same place, to learn more about the Artist.
 
     2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
@@ -158,7 +170,7 @@ The site was checked with Google Developments' Lighthouse tool. Below are the re
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Firefox, Microsoft Edge and Safari browsers.
--   The Website was tested through [Responsinator](https://www.responsinator.com/?url=https%3A%2F%2Fyescoops.github.io%2Fdjmattcooper%2F) to check any responsiveness issues. 
+-   The Website was tested through Responsinator [(results here)](https://www.responsinator.com/?url=https%3A%2F%2Fyescoops.github.io%2Fdjmattcooper%2F) to check any responsiveness issues. 
 -   The website was viewed on a variety of devices such as Desktop, Apple Laptop, Oppo G13 mobile, iPhone 8 & iPhoneX.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
