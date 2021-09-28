@@ -144,10 +144,6 @@ h2 {
     background-size: cover;
 }
 
-#cover-text {
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
 #cover-text,
 #cover-text h2 {
     color: var(--base-white);
@@ -163,6 +159,7 @@ h2 {
     bottom: 18%;
     left: 10%;
     position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 #cover-text h2 {
@@ -307,13 +304,13 @@ h2 {
         font-size: 90%;
     }
 }
+
 /*connect section*/
 
 #connect-section h1 {
     font-size: 150%;
     padding: 1.5rem;
 }
-
 
 .connect-container {
     background: url(../images/releases-section.jpg) no-repeat center center;
@@ -331,11 +328,6 @@ h2 {
     padding: 1rem;
     max-width: 80vw;
     font-size: 110%;
-}
-
-.signup-form h2 {
-    color: var(--base-white);
-    margin-bottom: 20px;
 }
 
 .text-input {
@@ -427,6 +419,7 @@ footer {
     padding: 5%;
     color: var(--base-white);
 }
+
 /*thank you page*/
 
 .thankyou {
