@@ -18,7 +18,7 @@ This is the main marketing website for DJ Matt Cooper. It is designed to be resp
 
         1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about DJ Matt Cooper.
         2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to look for examples of the style of music Matt plays and see if they have legitimacy. I also want to locate their social media links to see their followings on social media to guage their popularity and activity.
+        3. As a First Time Visitor, I want to look for examples of the style of music Matt plays and see if they have legitimacy. I also want to locate his social media links to see their followings on social media to guage their popularity and activity.
 
     -   #### Returning Visitor Goals
 
@@ -36,7 +36,7 @@ This is the main marketing website for DJ Matt Cooper. It is designed to be resp
     -   #### Typography
         -   The Roboto and Radjhani fonts are the chosen fonts used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto is a clean, futuristic style font that suits the styling of the website, with Radjhani being suggested by Google fonts as a contrasting pair to use along with it. 
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, clean aesthetic that pertains to the  anonymity of both the artist and the underground electronic music scene.
+        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, clean aesthetic that pertains to the anonymity of both the artist and the underground electronic music scene.
 
 ---
 
@@ -119,7 +119,7 @@ The site was checked with Google Developments' Lighthouse tool. Below are the re
         2. At the bottom of the page there is a redirection call to action in the form of social links to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
         3. In the Connect section, after a form response is submitted, the page refreshes and the user is brought to a thank you page, allowing them to return to the top of the home page via a link or via the navbar. For sylistic purposes, the from method was set from "POST" to "GET" so you can see the styling of the Thankyou page. This renders the form from collating inputted data and would need to be resolved before deployment. 
 
-    3. As a First Time Visitor, I want to look for examples of the style of music Matt plays and see if they have legitimacy. I also want to locate their social media links to see their followings on social media to guage their popularity and activity.
+    3. As a First Time Visitor, I want to look for examples of the style of music Matt plays and see if they have legitimacy. I also want to locate his social media links to see their followings on social media to guage their popularity and activity.
 
         1. Once the new visitor has read the cover text, they will notice the 'Reach Out' link which takes them to the Connect and social section.
         2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
@@ -228,7 +228,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 
--   All Images were created by the developer.
+-   All Images were created or owned by the developer.
 
 ### Acknowledgements
 
