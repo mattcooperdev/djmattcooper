@@ -49,7 +49,10 @@ This is the main marketing website for DJ Matt Cooper. It is designed to be resp
 
         ![Mobile Wireframe](assets/md-images/mc-mobile.png)
 
-    -   Thank you page Wireframe - [View](https://github.com/)
+    -   Thank you page Wireframe - 
+    ![Thank you Wireframe](assets/md-images/mc-thankyou.png) 
+
+    As you can see from the Wireframes, the initial layout of the Site was slightly different. The evolution of the layout came about through testing and understanding the UX as the build developed. 
 
 ---
 
@@ -92,6 +95,12 @@ The site was throughly checked for any possible accessibility issues. Below is t
 
 ![Wave Report](assets/md-images/mc-wave.png)
 
+## Performance
+
+The site was checked with Google Developments' Lighthouse tool. Below are the results:
+
+![Lighthouse Report](assets/md-images/mc-lighthouse.png)
+
 ---
 
 ### Testing User Stories from User Experience (UX) Section
@@ -100,25 +109,25 @@ The site was throughly checked for any possible accessibility issues. Below is t
 
     1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about DJ Matt Cooper.
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the section of their choice. Underneath there is a Hero Image with Text and a "Reach Out" Call to action button.
-        2. The main points are made immediately with the hero image
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the section of their choice. Underneath there is a Hero Image with text about the Site and a "Reach Out" Call to action button.
+        2. The main points are made immediately with the hero image and associated text.
         3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the Artist.
 
     2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
         1. The site has been designed to be fluid and never to entrap the user. At the top of the page there is a clean navigation bar, each link describes what section they will end up at clearly.
-        2. At the bottom of the page there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-        3. In the Connect section, after a form response is submitted, the page refreshes and the user is brought to a thank you page, allowing them to return to the top of the home page via a button.
+        2. At the bottom of the page there is a redirection call to action in the form of social links to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
+        3. In the Connect section, after a form response is submitted, the page refreshes and the user is brought to a thank you page, allowing them to return to the top of the home page via a link or via the navbar. For sylistic purposes, the from method was set from "POST" to "GET" so you can see the styling of the Thankyou page. This renders the form from collating inputted data and would need to be resolved before deployment. 
 
     3. As a First Time Visitor, I want to look for examples of the style of music Matt plays and see if they have legitimacy. I also want to locate their social media links to see their followings on social media to guage their popularity and activity.
 
-        1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
+        1. Once the new visitor has read the cover text, they will notice the 'Reach Out' link which takes them to the Connect and social section.
         2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-        3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
+    
 
 -   #### Returning Visitor Goals
 
-    1. As a Returning Visitor, I want to find information about his gig diary.
+    1. As a Returning Visitor, I want to find information about Matts gig diary.
 
         1. These are clearly shown in the gigs section of the page.
         2. Immediately below this information is the connect section where a User can reach out for more information. 
@@ -144,7 +153,7 @@ The site was throughly checked for any possible accessibility issues. Below is t
 
 -   The Website was tested on Google Chrome, Firefox, Microsoft Edge and Safari browsers.
 -   The Website was tested through [Responsinator](https://www.responsinator.com/?url=https%3A%2F%2Fyescoops.github.io%2Fdjmattcooper%2F) to check any responsiveness issues. 
--   The website was viewed on a variety of devices such as Desktop, Laptop, Oppo G13, iPhone 8 & iPhoneX.
+-   The website was viewed on a variety of devices such as Desktop, Apple Laptop, Oppo G13 mobile, iPhone 8 & iPhoneX.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
