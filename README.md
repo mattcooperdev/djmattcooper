@@ -84,10 +84,10 @@ This is the main marketing website for DJ Matt Cooper. It is designed to be resp
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate all pages of the project to ensure there were no syntax errors in there. 
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fyescoops.github.io%2Fdjmattcooper%2F)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fyescoops.github.io%2Fdjmattcooper%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results for Main Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fyescoops.github.io%2Fdjmattcooper%2F) - [Results for Thankyou Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fyescoops.github.io%2Fdjmattcooper%2Fthankyou.html)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results for Main Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fyescoops.github.io%2Fdjmattcooper%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) - [Results for Thankyou Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fyescoops.github.io%2Fdjmattcooper%2Fthankyou.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## Accessibility Testing
 
@@ -99,7 +99,13 @@ The site was throughly checked for any possible accessibility issues. Below is t
 
 The site was checked with Google Developments' Lighthouse tool. Below are the results:
 
-![Lighthouse Report](assets/md-images/mc-lighthouse.png)
+- Main Page
+
+![Lighthouse for Main Page](assets/md-images/mc-lighthouse.png)
+
+- Thankyou Page
+
+![Lighthouse for Thankyou](assets/md-images/mc-lighthouse2.png)
 
 ---
 
