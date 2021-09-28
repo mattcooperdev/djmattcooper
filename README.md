@@ -228,9 +228,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Content
 
--   All content was written by the developer.
-
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+-   All content was written by the Author, Matt Cooper.
 
 ### Media
 
@@ -238,6 +236,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Acknowledgements
 
--   My Mentor Anto for his continuous helpful feedback.
+-   My Mentor Antonio Rodriguez for his continuous helpful feedback.
 
 -   My partner Mor for her testing, suggestions and support throughout this build. 
