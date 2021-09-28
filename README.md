@@ -73,6 +73,37 @@ This is the main marketing website for DJ Matt Cooper. It is designed to be resp
 
 -   Interactive elements
 
+### Home Section
+-   Identifies the purpose of the page and gives a clear understanding to the visitor who DJ Matt Cooper is. A striking black and white hero image gives an anonymity to the artist which identifies with his work in the Underground music scene. 
+- An opaque background was later given to the cover text which helps with contrast issues with the hero image when viewed on smaller screens. 
+
+![Home section](assets/md-images/mc-home.png)
+
+### Releases Section
+-   Brief text is given describing the style of music that the artist makes, along with a short history of some of his achievements. This is kept simple to draw in and intrigue the visitor. 
+- Four examples of music are given via Youtube videos. The ability for the visitor to then visit Youtube externally to the Site allows the visitor to explore more of the Artists' work if required. 
+
+![Releases section](assets/md-images/mc-releases.png)
+
+### Gigs Section
+- This shows a list of the artists gigs for the upcoming three months. Roboto font is used for the dates to highlight to the visitor their upcoming activity. 
+- An abstract black and white photo of a nightclub environment is used for the background to evoke the experience of being at one of these gigs. 
+
+![Gigs section](assets/md-images/mc-gigs.png)
+
+### Connect Section
+- The use of the word 'Connect' rather than 'Contact' gives a genuine sense of community and connection with the Artist, making the UX more personable and trusted. 
+- The form carries the same text over from the rest of the Site, with a red color used as hover effects over the text input along with the 'connect' submit button. This ties to the animation used for the 'Reach Out' button in the Home section, bringing with it a sense of fluidity and need to fulfill the task of getting in touch.
+
+![Connect Section](assets/md-images/mc-connect.png)
+
+### Footer
+
+- Cleanly-styled footer with minimal outlined social links from Font Awesome draw the visitor to go to the Artist's social pages. No text was used here as the symbols clearly indicate what their purpose is, however, they are aria-labelled for accessibility validation. 
+
+![Footer](assets/md-images/mc-footer.png)
+
+
 ### Languages Used
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -84,12 +115,14 @@ This is the main marketing website for DJ Matt Cooper. It is designed to be resp
     - Google fonts were used to import the 'Roboto' and 'Radjhani' fonts into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [Git](https://git-scm.com/)
+1. [Git:](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+1. [Pexels:](https://pexels.com)
+    - Pexels was used to provide some images for the Gigs and Connect sections of the build. 
 
 ---
 
@@ -133,14 +166,14 @@ The site was checked with Google Developments' Lighthouse tool. Below are the re
 
     2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
-        1. The site has been designed to be fluid and never to entrap the user. At the top of the page there is a clean navigation bar, each link describes what section they will end up at clearly.
+        1. The site has been designed to be fluid and never to entrap the user. At the top of the page there is a clean navigation bar, each link describes what section they will end up at clearly. The viewport height has also been set in such a way that the header of the following section is always visible, as to draw the visitor in to exploring the page further. 
         2. At the bottom of the page there is a redirection call to action in the form of social links to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
         3. In the Connect section, after a form response is submitted, the page refreshes and the user is brought to a thank you page, allowing them to return to the top of the home page via a link or via the navbar. For sylistic purposes, the from method was set from "POST" to "GET" so you can see the styling of the Thankyou page. This renders the form from collating inputted data and would need to be resolved before deployment. 
 
     3. As a First Time Visitor, I want to look for examples of the style of music Matt plays and see if they have legitimacy. I also want to locate his social media links to see their followings on social media to guage their popularity and activity.
-
-        1. Once the new visitor has read the cover text, they will notice the 'Reach Out' link which takes them to the Connect and social section.
-        2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
+        1. By clicking the releases link in the navbar, or scrolling to the releases section after viewing the hero image and related text, the visitor will be able to click any of the YouTube videos to get an idea of the music the artist has released.  
+        2. Once the new visitor has read the cover text, they will notice the 'Reach Out' link which takes them to the Connect and social section.
+        3. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
     
 
 -   #### Returning Visitor Goals
@@ -244,7 +277,9 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 
--   All Images were created or owned by the developer.
+-   All Youtube videos are used after permission granted from the necessary labels. Music content owned by Matt Cooper. 
+- Hero image owned by Matt Cooper. Images for Gigs and Connect Sections taken royalty-free from
+[Pexels](https://pexels.com)
 
 ### Acknowledgements
 
