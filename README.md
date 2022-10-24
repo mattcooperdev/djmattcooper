@@ -1,6 +1,6 @@
 ![mc logo](assets/images/mc-logo.png) 
 
-[View the live project here.](https://yescoops.github.io/djmattcooper/)
+[View the live project here.](https://mattcooperdev.github.io/djmattcooper/)
 
 This is the main marketing website for DJ Matt Cooper. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for current and potential fans and employers.
 
